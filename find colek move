@@ -1,4 +1,4 @@
-local ItemID = 182 -- ID of the item you want to move
+local ItemID = 183 -- ID of the item you want to move
 local Item_Count = 200 -- Amount of items you want to move
 ------------------------------------------
 ------------------------------------------
@@ -6,8 +6,8 @@ local WorldPick = "GZMCU" -- World you want to pick up the items
 local ID2 = "HVRCO33" -- ID of the door
 ------------------------------------------
 ------------------------------------------
-local WorldDrop = "HJKGCRTK" -- World you want to drop the items
-local ID = "PELERV6" -- ID of the door
+local WorldDrop = "HJKGCRSV" -- World you want to drop the items
+local ID = "PELERV101" -- ID of the door
 ------------------------------------------
 ------------------------------------------
 ------------------------------------------
