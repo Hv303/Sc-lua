@@ -1,6 +1,3 @@
--- Auto Collect-Move v1.8 by Yuhkil
--- https://github.com/GrowHax
-------------------------------------------
 local ItemID = 182 -- ID of the item you want to move
 local Item_Count = 200 -- Amount of items you want to move
 ------------------------------------------
