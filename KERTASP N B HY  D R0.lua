@@ -21,13 +21,13 @@ tempatDropPack = 20 -- fg bg place for drop pack
                       while math.floor(getBot().x / 32) ~= (tile.x - 1) or math.floor(getBot().y / 32) ~= tile.y do
                           findPath(tile.x - 1,tile.y)
                           sleep(1000)
-                          outwd(WorldPNB,ID,tile.x - 1,tile.y)
+                          outwd(WorldPNB,ID)
                       end
                       while findItem(pack) > 0 and tileDrop1(tile.x,tile.y,findItem(pack)) do
                           sendPacket("action|drop\n|itemID|"..pack,2)
                           sendPacket("action|dialog_return\ndialog_name|drop_item\nitemID|"..pack.."|\ncount|"..findItem(pack),2)
                           sleep(500)
-                          outwd(WorldPNB,ID,tile.x - 1,tile.y)
+                          outwd(WorldPNB,ID)
                       end
                   end
               end
