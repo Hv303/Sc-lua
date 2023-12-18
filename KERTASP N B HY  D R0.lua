@@ -1,5 +1,5 @@
 local ItemID = 4584 -- Farmable ItemID
-local WorldPNB = "HJKGCR303" -- World Name for PNB
+local WorldPNB = "HJKGCR404" -- World Name for PNB
 local ID = "PELERV5" -- Door ID, (This is going to be where the bot is going to do PNB)
 local WorldTake = "HJKGCRTK" -- World To take Blocks (if blocks in current world, then write the name of the world you currently in)
 local ID2 = "PELERV6" -- Door ID
