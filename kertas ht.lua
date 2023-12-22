@@ -1,6 +1,6 @@
 -- Auto Harvest-Move v1.3 by Yuhkil
 local TreeID = 4585 -- Farmable Seed ID
-local HarvestWorld = "GQPZO" -- World you want to harvest in.
+local HarvestWorld = "HQDCA" -- World you want to harvest in.
 local ID1 = "HVRCO33" -- Door ID
 local worldname = "HJKGCRTK" -- World you want to drop the stuff in.
 local ID2 = "PELERV6" -- Door ID
